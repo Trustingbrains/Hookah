@@ -14,11 +14,14 @@ const CartPage: React.FC = () => {
   );
 
   return (
-    <div className="w-[400px] bg-white shadow-lg rounded-lg overflow-hidden font-sans">
+    <div className="w-full h-screen bg-white shadow-lg rounded-none overflow-auto font-sans">
       {/* Header */}
       <div className="p-4 flex justify-between items-center border-b">
         <h2 className="text-lg font-bold">My Cart</h2>
-        <button className="text-gray-500 hover:text-black text-xl">×</button>
+        <button 
+        className="text-gray-500 hover:text-black text-xl"
+        onClick={() => window.history.back()}
+        >×</button>
       </div>
 
       {/* Delivery Info */}

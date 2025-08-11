@@ -8,7 +8,7 @@ const OffersSection = () => {
         <span className="text-yellow-500">10 Coins</span>
       </p>
       <p className="mt-2 text-gray-700">
-        Get ₹1,000 Gift Voucher | ₹0 Joining Fee with Flipkart Axis Bank Credit
+        Get ₹1,000 Gift Voucher | ₹0 Joining Fee with Axis Bank Credit
         Card <span className="text-blue-600">Apply Now</span>
       </p>
     </div>
