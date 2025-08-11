@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#root {
+  max-width: 768px; /* tablet width */
+  margin: 0 auto; /* center horizontally */
+  background: white; /* optional, so it looks like a tablet body */
+  min-height: 100vh; /* fill height */
+}
